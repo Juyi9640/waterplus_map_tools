@@ -48,7 +48,7 @@ int main(int argc, char** argv)
     std::string strSaveFile;
     char const* home = getenv("HOME");
     strSaveFile = home;
-    strSaveFile += "/waypoints.xml";
+    strSaveFile += "/catkin_ws/src/nav_pkg/waypoints/waypoints.xml";
     srvS.request.filename = strSaveFile;
 
     for(int i=1; i<argc; i++)
