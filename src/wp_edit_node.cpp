@@ -629,7 +629,7 @@ int main(int argc, char** argv)
     std::string strLoadFile;
     char const* home = getenv("HOME");
     strLoadFile = home;
-    strLoadFile += "/waypoints.xml";
+    strLoadFile += "/catkin_ws/src/nav_pkg/waypoints/waypoints.xml";
     
     ros::NodeHandle n_param("~");
     std::string strParamFile;
